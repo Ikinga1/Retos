@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,13 +7,15 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <img
-        src="https://i.pinimg.com/550x/72/4d/80/724d80d10df742487b28d934c48ed8d6.jpg"
-        alt="LoboBlanco"
-      />
-      <h3>Lobo Blanco</h3>
-      <p>Es un lobo blanco, es un animal carnívoro y vive en manada</p>
-    </div>
+    :root { --color-primary: #007bff; /* Azul */ --color-secondary: #6c757d; /*
+    Gris */ --color-accent: #ff4500; /* Naranja */ --text-size-small: 14px; /*
+    Pequeño */ --text-size-medium: 16px; /* Mediano */ --text-size-large: 20px;
+    /* Grande */ --primary-font: Arial, sans-serif; /* Fuente principal */
+    --secondary-font: 'Roboto', sans-serif; /* Fuente secundaria */ --gap: 20px;
+    /* Hueco reusable para paddings, margenes o gap */ } .title { color:
+    var(--color-primary); font-size: var(--text-size-large); font-family:
+    var(--primary-font); } .paragraph { color: var(--color-secondary);
+    font-size: var(--text-size-medium); font-family: var(--secondary-font);
+    padding: var(--gap); }
   </body>
 </html>
